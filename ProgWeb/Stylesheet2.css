@@ -1,0 +1,138 @@
+#body {
+    background-color:darkgrey;
+    background-image: url(wall2.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main {
+    background-color: rgb(0,0,0,0.35);
+    margin-bottom: 50px;
+    width: 50vw;
+    height: 50vh;
+    padding-bottom: 20%;
+    margin-right: 0;
+    margin-left: 24%;
+    text-align: left;
+    float:left;
+    padding: 0;
+    border: 0;
+    border-top: 4px;
+    border-top-style: ridge;
+    border-color:beige;
+    box-shadow: 60px -16px teal;
+}
+#main2{
+  border-radius: 20px;
+  box-shadow: 60px -16px teal;
+}
+
+
+#nav {
+    background-color:black;
+    opacity: 0.5;
+    border-radius: 15px;
+    border-left-style:groove;
+    border-bottom-style: groove;
+    border-color: black;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+     list-style-type: none;
+
+}
+
+
+
+
+
+
+h1 {
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: sans-serif;
+    color: aliceblue;
+
+}
+p{
+    font-family: sans-serif;
+    color:white;
+    text-shadow:5px 5px #000000;
+
+}
+
+
+#main legend{
+    text-align: center;
+}
+h1:hover {
+ padding-bottom: 15px;
+}
+h1{
+    text-shadow:5px 5px #000000;
+     transition: padding-bottom 1s ease-out 100ms;
+
+}
+
+
+#photo_frame{
+    padding-top: 30px;
+    float: right;
+    margin:0;
+    margin-right: 40%;
+    margin-top: 1%;
+    border: 0;
+    border-top: 0px;
+    border-top-style: ridge;
+    padding-top: 5px;
+    border-color: beige;
+
+}
+select {
+    background-color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 21px;
+    border:0;
+    opacity: 0.4;
+    border-radius: 15px;
+    width: 10%;
+    height: 5%;
+}
+select option{
+    background-color: white;
+    color: white;
+    }
+select:hover{
+
+}
+li {
+    display: inline;
+    transition: background-color 2ms;
+    font-family: sans-serif;
+    padding: 1.2%;
+    text-align: left;
+
+}
+li a :hover{
+    background-color: darkseagreen;
+    color:firebrick;
+}
+a {
+    font-family: sans-serif;
+    font-size: 21px;
+    border: 10px;
+    width:10%;
+    height:5%;
+    color:black;
+
+}
+button{
+    border: 10px;
+    width:10%;
+    height:5%;
+    border-radius: 15px;
+
+}

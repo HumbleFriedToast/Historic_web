@@ -1,0 +1,258 @@
+#body {
+    background-color:#FFFFF7;
+    //background-image: url(wall2.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main {
+    background-color: rgb(0,0,0,0.35);
+    margin-bottom: 50px;
+    width: 50vw;
+    height: 50vh;
+    padding-bottom: 20%;
+    margin-right: 0;
+    margin-left: 24%;
+    text-align: left;
+    float:left;
+    padding: 0;
+    border: 0;
+    border-top: 4px;
+    border-top-style: ridge;
+    border-color:beige;
+    box-shadow: 60px -16px brown;
+}
+#main legend{
+    text-align: center;
+}
+
+#nav {
+    background-color:crimson;
+    height: 6%;
+    opacity: 0.8;
+    border-radius: 5px;
+    border-left-style:groove;
+    border-bottom-style: groove;
+    border-color: black;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+     list-style-type: none;
+
+}
+
+
+#main2 {
+  background-color: rgb(0,0,0,0.13);
+  box-shadow: 80px -25px rgb(220, 20, 60,0.8);
+  border-radius: 2px;
+  float: right;
+  width: 40vw;
+  height: 25vh;
+  margin-right: 10%;
+  border: 0px;
+}
+
+
+
+
+#photo_frame{
+    float: left;
+    margin:0;
+    border: 0;
+    border-top-style: ridge;
+    border-color: beige;
+    margin-left: 20%;
+    transition: box-shadow 0.6s ease-out 100ms;
+}
+#photo_frame:hover{
+  box-shadow: 20px 22px rgb(220, 20, 60,0.8);
+}
+
+
+
+#Gallery {
+  background-color: rgb(0,0,0,0.13);
+  box-shadow: 20px 22px rgb(220, 20, 60,0.8);
+  float:right;
+  width: 14vw;
+  height: 7vh;
+  border: 0;
+  margin-top: 3%;
+  margin-right: 10%;
+  transition: padding-bottom 0.4s ease-out 100ms;
+}
+#Gallery:hover {
+padding-bottom: 15px;
+}
+#b:link {
+  color:black;
+
+}
+#b{
+  color: crimson;
+  font-size:40px;
+  float: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: sans-serif;
+  text-shadow:5px 5px rgba(255, 0, 0, 0.2);
+  transition: padding-bottom 1s ease-out 100ms;
+}
+#Bibliography {
+  background-color: rgb(0,0,0,0.13);
+  box-shadow: 20px 22px rgb(220, 20, 60,0.8);
+  float:right;
+  width: 14vw;
+  height: 7vh;
+  margin-top: 3%;
+  margin-right: 5%;
+  border: 0;
+  transition: padding-bottom 0.4s ease-out 100ms;
+}
+#Bibliography:hover {
+padding-bottom: 15px;
+}
+
+#photo_f {
+  border-color: black;
+  border-radius: 6px;
+  border:0px;
+  border-style:groove;
+  margin: 15%;
+  width: 25vw;
+  height: 50vh;
+  transition: box-shadow 0.6s ease-out 100ms;
+}
+#photo_f img {
+  width:75%;
+  height:100%;
+
+}
+#photo_f:hover {
+  box-shadow: 15px 19px rgb(220, 20, 60,0.8);
+
+}
+
+#cont_fieldset {
+  border-radius:5px;
+  background-color: rgb(220, 20, 60,0.8);
+  border:0px;
+  border-radius: 5px;
+  border-left-style:groove;
+  border-bottom-style: groove;
+  border-color: black;
+  box-shadow: 20px 22px rgb(220, 20, 60,0.3);
+
+}
+th, td {
+  padding: 15px;
+}
+table {
+  align:right;
+  border-radius: 5px;
+  border-color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+p{
+    font-family: sans-serif;
+    color:black ;
+    font-size:20px;
+    text-shadow:5px 5px rgb(220, 20, 60,0.1);
+    //text-shadow:5px 5px #000000;
+
+}
+
+
+
+
+h1:hover {
+ padding-bottom: 5px;
+}
+h1{
+  color: crimson;
+  float: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: sans-serif;
+  text-shadow:5px 5px rgb(220, 20, 60,0.1);
+  transition: padding-bottom 1s ease-out 100ms;
+
+}
+h2 {
+  font-family: sans-serif;
+  text-shadow:5px 5px rgb(220, 20, 60,0.1);
+}
+
+
+
+select {
+    background-color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 21px;
+    border:0;
+    opacity: 0.4;
+    border-radius: 15px;
+    width: 10%;
+    height: 5%;
+}
+select option{
+    background-color: white;
+    color: white;
+    }
+select:hover{
+
+}
+
+
+
+
+
+
+li {
+    display: inline;
+    transition: background-color 2ms;
+    font-family: sans-serif;
+    padding: 1%;
+    text-align: right;
+
+}
+li a :hover{
+    background-color: darkseagreen;
+    color:firebrick;
+}
+
+
+
+a {
+    font-family: sans-serif;
+    font-size: 21px;
+    border: 10px;
+    width:10%;
+    height:5%;
+    color:black;
+    text-decoration: none;
+
+}
+
+
+button{
+  float: left;
+  border: 10px;
+  width:10%;
+  height:70%;
+  border-radius: 8px;
+  margin: 10px;
+
+}
